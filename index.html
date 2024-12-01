@@ -1,55 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jyothikala V - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Jyothikala V</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Navbar -->
+  <header>
+    <nav class="container">
+      <div class="logo">Jyothikala V</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="home">
-        <div class="intro">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Jyothikala V, a web developer.</p>
-        </div>
-    </section>
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <div class="home-content">
+        <h1>Hello, I'm <span>Jyothikala V</span></h1>
+        <p>A passionate Full Stack Developer and Final-Year MSc Computer Science Student</p>
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="file:///C:/Users/91965/Favorites/Downloads/JYOTHIKALA%20V%20Resume.pdf" class="btn" download="Jyothikala_V_Resume.pdf">Download Resume</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container about-container">
+      <div class="about-img">
+        <img src="joo1.png" alt="Jyothikala V">
+      </div>
+      <div class="about-content">
         <h2>About Me</h2>
-        <p>I'm a final-year MSc Computer Science student with a passion for web development. I have experience with HTML, CSS, JavaScript, Java, and MySQL.</p>
-    </section>
+        <p>
+          I am a motivated final-year MSc Computer Science student with expertise in full-stack web development. 
+          I specialize in creating responsive, user-friendly applications and enjoy solving real-world challenges.
+        </p>
+        <ul>
+          <li><b>Education:</b> MSc Computer Science - 86.85%</li>
+          <li><b>College:</b> Kaamadhenu Arts and Science College, Sathyamangalam</li>
+          <li><b>Languages:</b> Tamil, Kannada, English</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>SKFP Shop</h3>
-            <p>A complete e-commerce website with functionalities including user sign-up, product display, order form, and admin management.</p>
-        </div>
-        <!-- Add more projects here -->
-    </section>
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Programming</h3>
+        <p>Java, JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-desktop"></i>
+        <h3>Web</h3>
+        <p>HTML, CSS, Bootstrap, Servlets</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Frameworks</h3>
+        <p>React.js, Node.js, Express.js</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>Databases</h3>
+        <p>MySQL, MongoDB, JDBC</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me at <a href="mailto:jothikalavenkatachala@gmail.com">jothikalavenkatachala@gmail.com</a> or call me at <a href="tel:+917975588716">7975588716</a>.</p>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>SKFP Shop</h3>
+      <p>Developed an e-commerce application with sign-up, dynamic product display, order forms, and admin panel.</p>
+      <p><b>Technologies:</b> Java, Servlets, JDBC, MySQL, HTML, CSS</p>
+    </div>
+    <div class="project">
+      <h3>College Guest Food Arrangement</h3>
+      <p>Built a MERN stack app for managing college guest food arrangements with role-based functionalities.</p>
+      <p><b>Technologies:</b> React.js, Node.js, Express.js, MongoDB</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2024 Jyothikala V. All rights reserved.</p>
-    </footer>
+  <!-- Certifications Section -->
+  <section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python Training by Inspire Softech Solutions</li>
+      <li>Full Stack Development (MERN) Internship - NoviTech R&D Private Limited</li>
+      <li>30 Days MasterClass in Full Stack Development (MERN)</li>
+    </ul>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p><b>Email:</b> <a href="mailto:jothikalavenkatachalam@gmail.com">jothikalavenkatachalam@gmail.com</a></p>
+      <p><b>Phone:</b> <a href="tel:7975588716">7975588716</a></p>
+      <p><b>GitHub:</b> <a href="https://github.com/JYOTHIKALA123" target="_blank">JYOTHIKALA123</a></p>
+      <p><b>Portfolio:</b> <a href="https://jyothikala123.github.io/Portfolio/" target="_blank">Portfolio</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Jyothikala V. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
